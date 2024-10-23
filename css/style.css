@@ -223,25 +223,19 @@ header.sticky .nav-bar{
   height: auto; /* Keeps the aspect ratio intact */
 }
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 768px) { /* Adjust the max-width value if needed */
-  /* Default margin for Chrome and other browsers */
+/* Styles for desktop (PC) */
+@media only screen and (min-width: 769px) {
   .home-img {
-    margin-top: 50px; /* Apply 150px margin-top for Chrome and others */
+    margin-top: 80px; /* Apply 80px margin-top for PC */
   }
 }
 
-/* Safari-specific styles */
-@media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-    @media only screen and (max-width: 768px) {
-      .home-img {
-        margin-top: 200px; /* Apply 300px margin-top for Safari */
-      }
-    }
+/* Styles for mobile devices */
+@media only screen and (max-width: 768px) {
+  .home-img {
+    margin-top: 200px; /* Apply 200px margin-top for all mobile browsers */
   }
 }
-
 
 
 .home{
