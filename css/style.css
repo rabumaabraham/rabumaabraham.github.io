@@ -224,7 +224,7 @@ header.sticky .nav-bar{
     width: 100%; /* Adjusts the image to the width of the container */
     max-width: 500px; /* Limits the image's maximum width */
     height: auto; /* Keeps the aspect ratio intact */
-    padding: 20px; /* Padding for Chrome and others */
+    padding: 0px; /* Padding for Chrome and others */
   }
 }
 
@@ -233,7 +233,7 @@ header.sticky .nav-bar{
   @supports (-webkit-appearance: none) {
     @media only screen and (max-width: 768px) {
       .home-img img {
-        padding: 400px; /* Padding specifically for Safari */
+        padding: 0px; /* Padding specifically for Safari */
       }
     }
   }
