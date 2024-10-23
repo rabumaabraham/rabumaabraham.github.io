@@ -223,13 +223,23 @@ header.sticky .nav-bar{
   height: auto; /* Keeps the aspect ratio intact */
 }
 
-
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) { /* Adjust the max-width value if needed */
+  /* Chrome and Other Browsers */
   .home-img {
-    margin-top: 200px; /* Apply 200px margin-top on mobile devices */
+    margin-top: 150px; /* Apply 150px margin-top for Chrome and others */
+  }
+
+  /* Safari-specific styles */
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+      .home-img {
+        margin-top: 300px; /* Apply 300px margin-top for Safari */
+      }
+    }
   }
 }
+
 
 
 
