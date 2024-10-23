@@ -226,20 +226,6 @@ header.sticky .nav-bar{
   padding: 20px !important; /* Padding for Chrome and others */
 }
 
-/* Safari-specific styles */
-@media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-    @media only screen and (max-width: 768px) {
-      .home-img img {
-        padding: 400px !important; /* Padding specifically for Safari */
-      }
-    }
-  }
-}
-
-
-
-
 .home{
   position: relative;
   max-width: 1250px;
