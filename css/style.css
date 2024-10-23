@@ -220,9 +220,15 @@ header.sticky .nav-bar{
   width: 100%; /* Adjusts the image to the width of the container */
   max-width: 500px; /* Limits the image's maximum width */
   height: auto; /* Keeps the aspect ratio intact */
-  margin-top: 300px; /* Space above the image */
-  text-align: center; /* Center the image */
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .home-img {
+    margin-top: 250px; /* Add margin-top for mobile devices */
+  }
+}
+
 
 .home{
   position: relative;
