@@ -217,11 +217,13 @@ header.sticky .nav-bar{
 
 /*=======Home section=======*/
 
-.home-img img {
+.home-img {
+  margin-top: 20px; /* Adjust the value as needed */
   width: 100%; /* Adjusts the image to the width of the container */
-  max-width: 400px; /* Limits the image's maximum width */
+  max-width: 500px; /* Limits the image's maximum width */
   height: auto; /* Keeps the aspect ratio intact */
 }
+
 
 .home{
   position: relative;
