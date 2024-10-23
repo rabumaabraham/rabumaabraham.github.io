@@ -221,7 +221,6 @@ header.sticky .nav-bar{
   width: 100%; /* Adjusts the image to the width of the container */
   max-width: 500px; /* Limits the image's maximum width */
   height: auto; /* Keeps the aspect ratio intact */
-  padding: 10px;
 }
 
 /* Media query for mobile devices */
@@ -235,7 +234,7 @@ header.sticky .nav-bar{
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) {
       .home-img {
-        margin-top: 100px; /* Apply 300px margin-top for Safari */
+        margin-top: 0px; /* Apply 300px margin-top for Safari */
       }
     }
   }
