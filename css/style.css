@@ -227,7 +227,7 @@ header.sticky .nav-bar{
 @media only screen and (max-width: 768px) { /* Adjust the max-width value if needed */
   /* Default margin for Chrome and other browsers */
   .home-img {
-    margin-top: 150px; /* Apply 150px margin-top for Chrome and others */
+    margin-top: 50px; /* Apply 150px margin-top for Chrome and others */
   }
 }
 
@@ -236,7 +236,7 @@ header.sticky .nav-bar{
   @supports (-webkit-appearance: none) {
     @media only screen and (max-width: 768px) {
       .home-img {
-        margin-top: 300px; /* Apply 300px margin-top for Safari */
+        margin-top: 200px; /* Apply 300px margin-top for Safari */
       }
     }
   }
