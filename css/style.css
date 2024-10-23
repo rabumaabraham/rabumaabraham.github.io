@@ -218,14 +218,12 @@ header.sticky .nav-bar{
 /*=======Home section=======*/
 
 /* General styles for mobile devices (Chrome and others) */
-@media only screen and (max-width: 768px) {
-  .home-img img {
-    margin-top: 0px; /* Adjust the value as needed */
-    width: 100%; /* Adjusts the image to the width of the container */
-    max-width: 500px; /* Limits the image's maximum width */
-    height: auto; /* Keeps the aspect ratio intact */
-    padding: 0px; /* Padding for Chrome and others */
-  }
+.home-img img {
+  margin-top: 0px; /* Adjust the value as needed */
+  width: 100%; /* Adjusts the image to the width of the container */
+  max-width: 500px; /* Limits the image's maximum width */
+  height: auto; /* Keeps the aspect ratio intact */
+  padding: 20px !important; /* Padding for Chrome and others */
 }
 
 /* Safari-specific styles */
@@ -233,11 +231,12 @@ header.sticky .nav-bar{
   @supports (-webkit-appearance: none) {
     @media only screen and (max-width: 768px) {
       .home-img img {
-        padding: 0px; /* Padding specifically for Safari */
+        padding: 400px !important; /* Padding specifically for Safari */
       }
     }
   }
 }
+
 
 
 
