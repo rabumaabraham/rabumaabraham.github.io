@@ -74,6 +74,7 @@
 
 html{
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 body{
@@ -81,6 +82,7 @@ body{
   background: var(--body-bg-color);
   margin: 2rem 0 0 0;
   transition: .5s ease;
+  overscroll-behavior: none;
 }
 
 a{
