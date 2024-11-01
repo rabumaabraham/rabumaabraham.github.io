@@ -194,6 +194,22 @@ function openQuiz() {
 */
 
 
+// Close portfolio modal when clicking outside the modal content
+document.addEventListener("click", function (event) {
+    portfolioModals.forEach((modal) => {
+        const modalBody = modal.querySelector(".portfolio-model-body");
+
+        // If the modal is active and the click is outside the modal body, close it
+        if (modal.classList.contains("active") && !modalBody.contains(event.target) && !event.target.closest(".img-card")) {
+            modal.classList.remove("active");
+        }
+    });
+});
+
+
+  
+
+
 
 
 
