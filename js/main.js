@@ -206,18 +206,55 @@ document.addEventListener("click", function (event) {
     });
 });
 
+//
 
+document.addEventListener("click", function (event) {
+    const serviceModals = document.querySelectorAll(".service-modal");
+    serviceModals.forEach((modal) => {
+        const modalBody = modal.querySelector(".service-modal-body");
 
+        // If the modal is active and the click is outside the modal body, close it
+        if (modal.classList.contains("active") && !modalBody.contains(event.target) && !event.target.closest(".service-card")) {
+            modal.classList.remove("active");
+        }
+    });
+});
 
+// To open the service modal when the "Learn More" button is clicked
+const learnMoreButtons = document.querySelectorAll(".learn-more-btn");
+learnMoreButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+        const serviceContainer = button.closest(".service-container");
+        const serviceModal = serviceContainer.querySelector(".service-modal");
+        serviceModal.classList.add("active");
+    });
+});
 
-  
+// Close the modal when the close button is clicked
+const closeModalButtons = document.querySelectorAll(".modal-close-btn");
+closeModalButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+        const serviceModal = button.closest(".service-modal");
+        serviceModal.classList.remove("active");
+    });
+});
 
+//fasttttt
 
+// This is a function that waits a moment before running another function
+function debounce(func, delay) {
+    let timeout; // This will keep track of the waiting time
+    return function(...args) {
+        const context = this; // Save the current context
+        clearTimeout(timeout); // Clear the previous timer
+        timeout = setTimeout(() => func.apply(context, args), delay); // Set a new timer
+    };
+}
 
-
-
-
-
+// This adds the scroll event listener with debouncing
+window.addEventListener("scroll", debounce(() => {
+    console.log("Scrolling happened!");
+}, 200)); // Runs the function 200 milliseconds after scrolling stops
 
 
 
