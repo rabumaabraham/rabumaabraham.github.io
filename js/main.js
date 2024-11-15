@@ -143,7 +143,7 @@ navItems.forEach((navItem) => {
 //Common reveal options to create reveal animations
 ScrollReveal({
     //reset: true,
-    distance: '60px',
+    distance: '90px',
     duration: 1000,
     delay: 50,
 });
