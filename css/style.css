@@ -1402,4 +1402,15 @@ body, .container, .portfolio-list, .img-card-container {
 }
 
 
+/* display automatically 
+
+/* Ensure elements are visible right from the start */
+.reveal {
+  opacity: 1; /* Make sure the element is visible */
+  transform: scale(1); /* Elements should start at their normal size */
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+
 

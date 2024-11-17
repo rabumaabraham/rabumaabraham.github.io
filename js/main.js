@@ -138,7 +138,7 @@ navItems.forEach((navItem) => {
         navigation.classList.remove("active");
     });
 });
-
+/*
 //Scroll reveal animations
 //Common reveal options to create reveal animations
 ScrollReveal({
@@ -159,6 +159,30 @@ ScrollReveal().reveal('.about .professional-list li', { delay: 500, origin: 'rig
 ScrollReveal().reveal('.skills-description, .services-description, .contact-card, .client-swiper, .contact-left h2', { delay: 700, origin: 'left' });
 ScrollReveal().reveal('.experience-card, .service-card, .education, .portfolio .img-card', { delay: 800, origin: 'bottom', interval: 200 });
 ScrollReveal().reveal('footer .group', { delay: 500, origin: 'top', interval: 200 });
+*/
+// new animation 
+ScrollReveal({
+    reset: true,  // Allow re-triggering the animation
+    distance: '0px',  // No distance, no sliding effect
+    duration: 800,  // Faster animation for less delay
+    delay: 50,
+    scale: 0.9,  // Slightly smaller to simulate zoom-in effect
+    easing: 'ease-out', // Smoother zoom effect
+    opacity: 1,  // Ensure full visibility without delay
+});
+
+ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', { delay: 500 });
+ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', { delay: 600 });
+ScrollReveal().reveal('.home .info .btn', { delay: 700 });
+ScrollReveal().reveal('.media-icons i, .contact-left li', { delay: 500, interval: 200 });
+ScrollReveal().reveal('.home-img, .about-img', { delay: 500 });
+ScrollReveal().reveal('.about .description, .contact-right', { delay: 600 });
+ScrollReveal().reveal('.about .professional-list li', { delay: 500, interval: 200 });
+ScrollReveal().reveal('.skills-description, .services-description, .contact-card, .client-swiper, .contact-left h2', { delay: 700 });
+ScrollReveal().reveal('.experience-card, .service-card, .education, .portfolio .img-card', { delay: 800, interval: 200 });
+ScrollReveal().reveal('footer .group', { delay: 500, interval: 200 });
+
+
 
 // refresh to home page
 document.addEventListener('DOMContentLoaded', function () {
