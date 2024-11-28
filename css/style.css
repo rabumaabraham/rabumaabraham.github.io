@@ -574,7 +574,7 @@ header.sticky .nav-bar{
 }
 
 .bar .python::before{
-  width: 60%;
+  width: 50%;
 }
 
 .bar .cpp::before{
@@ -626,7 +626,7 @@ header.sticky .nav-bar{
 }
 
 .experience-card:hover{
-  background-color: var(--hover-color);
+
 }
 
 /*=======Services section=======*/
@@ -1411,6 +1411,11 @@ body, .container, .portfolio-list, .img-card-container {
   transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
 
+
+/* ex */
+.ex{
+  color: white;
+}
 
 
 
