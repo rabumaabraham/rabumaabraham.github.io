@@ -282,3 +282,17 @@ window.addEventListener("scroll", debounce(() => {
 
 
 
+// disable a_blank - opening in new tab
+document.addEventListener("DOMContentLoaded", function() {
+    // Select all anchor tags (<a>) on the page
+    const links = document.querySelectorAll('a[target="_blank"]');
+    
+    // Loop through each link and remove the target="_blank" attribute
+    links.forEach(link => {
+      link.removeAttribute('target');
+    });
+  });
+  
+
+
+
