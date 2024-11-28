@@ -292,7 +292,44 @@ document.addEventListener("DOMContentLoaded", function() {
       link.removeAttribute('target');
     });
   });
+
+
+
+  // counter
+  document.addEventListener("DOMContentLoaded", () => {
+    const counterElement = document.getElementById("counter");
+    const target = 25; // Target number
+    const speed = 50; // Speed of counting in milliseconds
   
+    // Function to animate the counter
+    const animateCounter = () => {
+      let count = 0; // Start from 0
+      const updateCounter = setInterval(() => {
+        count++;
+        counterElement.textContent = `${count}+`; // Add "+" while counting
+  
+        if (count >= target) {
+          clearInterval(updateCounter); // Stop counting when target is reached
+        }
+      }, speed);
+    };
+  
+    // Intersection Observer to trigger counting when the section is in view
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateCounter(); // Start counting when the element is visible
+          }
+        });
+      },
+      { threshold: 0.5 } // Trigger when 50% of the section is visible
+    );
+  
+    observer.observe(counterElement); // Observe the counter element
+  });
 
 
-
+  
+  
+  

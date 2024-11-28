@@ -578,7 +578,7 @@ header.sticky .nav-bar{
 }
 
 .bar .cpp::before{
-  width: 70%;
+  width: 50%;
 }
 
 .bar .git::before{
@@ -1416,6 +1416,15 @@ body, .container, .portfolio-list, .img-card-container {
 .ex{
   color: white;
 }
+
+
+
+
+
+/* */
+
+
+
 
 
 
