@@ -283,6 +283,8 @@ window.addEventListener("scroll", debounce(() => {
 
 
 // disable a_blank - opening in new tab
+
+/*
 document.addEventListener("DOMContentLoaded", function() {
     // Select all anchor tags (<a>) on the page
     const links = document.querySelectorAll('a[target="_blank"]');
@@ -292,6 +294,23 @@ document.addEventListener("DOMContentLoaded", function() {
       link.removeAttribute('target');
     });
   });
+*/
+//////////////disable only on phones
+document.addEventListener("DOMContentLoaded", function() {
+    // Check if the device is mobile
+    const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) || window.innerWidth <= 768;
+
+    if (isMobile) {
+        // Select all anchor tags (<a>) with target="_blank"
+        const links = document.querySelectorAll('a[target="_blank"]');
+        
+        // Loop through each link and remove the target="_blank" attribute
+        links.forEach(link => {
+            link.removeAttribute('target');
+        });
+    }
+});
+
 
 
 

@@ -574,15 +574,23 @@ header.sticky .nav-bar{
 }
 
 .bar .python::before{
-  width: 50%;
+  width: 60%;
 }
 
 .bar .cpp::before{
-  width: 50%;
+  width: 60%;
 }
 
 .bar .git::before{
   width: 90%;
+}
+
+.bar .frameworks::before{
+  width: 60%;
+}
+
+.bar .node::before {
+  width: 60%;
 }
 
 .experience-card{
