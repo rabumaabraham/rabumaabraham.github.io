@@ -29,13 +29,13 @@ Check out my portfolio here:
   University of Helsinki | [certificate](https://rabumaabraham.github.io/documents/c4.pdf) |
 
 - **Responsive Web Design**  
-  FreeCodeCamp, 2024 | [certificate](https://www.freecodecamp.org/certification/rabuma/responsive-web-design) | 
+  FreeCodeCamp | [certificate](https://www.freecodecamp.org/certification/rabuma/responsive-web-design) | 
 
 - **JavaScript Algorithms and Data Structures**  
-  FreeCodeCamp, 2024 | [certificate](https://www.freecodecamp.org/certification/rabuma/javascript-algorithms-and-data-structures-v8) | 
+  FreeCodeCamp  | [certificate](https://www.freecodecamp.org/certification/rabuma/javascript-algorithms-and-data-structures-v8) | 
 
 - **Video Game Design**  
-  Future.Coders, 2024 | [certificate](https://rabumaabraham.github.io/documents/c3.pdf) |  
+  Future.Coders | [certificate](https://rabumaabraham.github.io/documents/c3.pdf) |  
 
 ---
 
