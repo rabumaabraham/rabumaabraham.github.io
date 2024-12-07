@@ -7,8 +7,8 @@ This portfolio showcases my skills, projects, internships, certifications, and t
 
 ## 🌟 Achievements
 ### 📌 Internships
-- **Software Developer Intern**  
-  **Prodigy InfoTech (Dec 2024 – Present)**  
+- **Software Development Internship**  
+  **Prodigy InfoTech | Mumbai, india**  
   - Developed a Sudoku Solver using backtracking.  
   - Created a Guessing Game with real-time feedback.  
   - Built a CRUD-based Contact Management System.  
