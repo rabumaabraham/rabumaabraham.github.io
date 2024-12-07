@@ -8,12 +8,8 @@ This portfolio showcases my skills, projects, internships, certifications, and t
 ## 🌟 Achievements
 ### 📌 Internships
 - **Software Development Internship**  
-  **Prodigy InfoTech | Mumbai, india**  
-  - Developed a Sudoku Solver using backtracking.  
-  - Created a Guessing Game with real-time feedback.  
-  - Built a CRUD-based Contact Management System.  
-  - Developed a Temperature Converter for Celsius, Fahrenheit, and Kelvin.  
-
+  **Prodigy InfoTech | Mumbai, india | Remote**
+  
 - **Python Developer Intern**  
   **CodSoft (Nov 2024 – Dec 2024)**  
   - Designed a Password Generator with customizable length and complexity.  
