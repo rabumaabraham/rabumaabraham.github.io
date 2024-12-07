@@ -53,4 +53,4 @@ Check out my portfolio here:
 
 ---
 
-Thank you for visiting my repository! 😊  
+Thank you for visiting my portfolio! 😊  
