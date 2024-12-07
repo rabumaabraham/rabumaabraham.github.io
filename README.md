@@ -14,13 +14,13 @@ Check out my portfolio here:
 ## 🌟 Achievements
 ### 📌 Internships
 - **Software Development Internship**  
-  **Prodigy InfoTech | Mumbai, india | Remote**
+  **[Prodigy InfoTech](https://prodigyinfotech.dev/) | Mumbai, india | Remote**
   
 - **Python Programming Internship**  
-  **CodSoft | Kolkata, India | Remote**  
+  **[CodSoft](https://www.codsoft.in/) | Kolkata, India | Remote**  
 
 - **Web Development and Designing Internship**  
-  **Oasis Infobyte | New Delhi, India | Remote**  
+  **[Oasis Infobte](https://oasisinfobyte.com/) | New Delhi, India | Remote**  
 
 ---
 
