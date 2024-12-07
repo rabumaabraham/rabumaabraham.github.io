@@ -13,7 +13,7 @@ This portfolio showcases my skills, projects, internships, certifications, and t
 - **Python Programming Internship**  
   **CodSoft | Kolkata, India | Remote**  
 
-- **Web Developer and Designer Intern**  
+- **Web Development and Designing Internship**  
   **Oasis Infobyte | New Delhi, India | Remote**  
 
 ---
