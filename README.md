@@ -20,7 +20,7 @@ This portfolio showcases my skills, projects, internships, certifications, and t
 
 ### 🏆 Certifications
 - **Elements of Artificial Intelligence**  
-  University of Helsinki | [here](https://rabumaabraham.github.io/movie-recommendation-app/) |
+  University of Helsinki | [link](https://rabumaabraham.github.io/movie-recommendation-app/) |
 
 - **Responsive Web Design**  
   _FreeCodeCamp, 2024_  
