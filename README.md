@@ -20,7 +20,7 @@ Check out my portfolio here:
   **[CodSoft](https://www.codsoft.in/) | Kolkata, India | Remote**  
 
 - **Web Development and Designing Internship**  
-  **[Oasis Infobte](https://oasisinfobyte.com/) | New Delhi, India | Remote**  
+  **[Oasis Infobyte](https://oasisinfobyte.com/) | New Delhi, India | Remote**  
 
 ---
 
