@@ -34,7 +34,7 @@ Check out my portfolio here:
 - **JavaScript Algorithms and Data Structures**  
   FreeCodeCamp  | [certificate](https://www.freecodecamp.org/certification/rabuma/javascript-algorithms-and-data-structures-v8) | 
 
-- **Video Game Design**  
+- **Video Game Designing**  
   Future.Coders | [certificate](https://rabumaabraham.github.io/documents/c3.pdf) |  
 
 ---
