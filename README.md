@@ -5,6 +5,12 @@ This portfolio showcases my skills, projects, internships, certifications, and t
 
 ---
 
+## 🖥️ Website Link
+Check out my portfolio here:  
+**[Rabuma's Portfolio Website](https://rabumaabraham.github.io/)**  
+
+---
+
 ## 🌟 Achievements
 ### 📌 Internships
 - **Software Development Internship**  
@@ -33,11 +39,6 @@ This portfolio showcases my skills, projects, internships, certifications, and t
 
 ---
 
-## 🖥️ Website Link
-Check out my portfolio here:  
-**[Rabuma's Portfolio Website](https://rabumaabraham.github.io/)**  
-
----
 
 
 ## 📋 Most Recent Projects
