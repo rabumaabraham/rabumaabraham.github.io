@@ -10,18 +10,11 @@ This portfolio showcases my skills, projects, internships, certifications, and t
 - **Software Development Internship**  
   **Prodigy InfoTech | Mumbai, india | Remote**
   
-- **Python Developer Intern**  
-  **CodSoft (Nov 2024 – Dec 2024)**  
-  - Designed a Password Generator with customizable length and complexity.  
-  - Built a To-Do List App to track and manage tasks.  
-  - Developed an efficient Calculator for arithmetic operations.  
+- **Python Programming Internship**  
+  **CodSoft | Kolkata, India | Remote**  
 
 - **Web Developer and Designer Intern**  
-  **Oasis Infobyte (Nov 2024 – Dec 2024)**  
-  - Implemented a secure Login Authentication System.  
-  - Built a styled Tribute Page.  
-  - Created a To-Do App for task management.  
-  - Developed a Calculator using HTML, CSS, and JavaScript.  
+  **Oasis Infobyte | New Delhi, India | Remote**  
 
 ---
 
