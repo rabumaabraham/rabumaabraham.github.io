@@ -47,8 +47,7 @@ Check out my portfolio here:
 
 ---
 
-## 📫 Contact Information
-- **Phone**: +41 76 630 43 34  
+## 📫 Contact Information  
 - **Email**: iamrabuma@gmail.com  
 - **Location**: Zurich, Switzerland  
 
