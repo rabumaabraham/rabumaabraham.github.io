@@ -574,7 +574,7 @@ header.sticky .nav-bar{
 }
 
 .bar .python::before{
-  width: 60%;
+  width: 90%;
 }
 
 .bar .cpp::before{
@@ -586,11 +586,11 @@ header.sticky .nav-bar{
 }
 
 .bar .frameworks::before{
-  width: 60%;
+  width: 90%;
 }
 
 .bar .node::before {
-  width: 60%;
+  width: 85%;
 }
 
 .experience-card{
