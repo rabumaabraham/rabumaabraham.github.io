@@ -1429,7 +1429,26 @@ body, .container, .portfolio-list, .img-card-container {
 
 
 
-/* */
+/* testimonials fixed*/
+
+@media (max-width: 768px) {
+  .client-details p {
+    font-size: 14px; /* Reduce text size */
+    line-height: 1.4; /* Improve readability */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Keep text aligned */
+  }
+
+  .client-details h3 {
+    font-size: 16px; /* Reduce heading size */
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    transform: scale(0.8); /* Reduce button size */
+  }
+}
+
 
 
 
