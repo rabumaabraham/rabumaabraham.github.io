@@ -444,7 +444,7 @@ header.sticky .nav-bar{
 
 @media (max-width: 600px) {
   .about-img img {
-    max-width: 300px; /* or whatever size you want on mobile */
+    max-width: 280px; /* or whatever size you want on mobile */
   }
 }
 

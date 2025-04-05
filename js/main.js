@@ -317,7 +317,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // counter
   document.addEventListener("DOMContentLoaded", () => {
     const counterElement = document.getElementById("counter");
-    const target = 25; // Target number
+    const target = 45; // Target number
     const speed = 50; // Speed of counting in milliseconds
   
     // Function to animate the counter
