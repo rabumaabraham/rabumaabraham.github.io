@@ -442,6 +442,13 @@ header.sticky .nav-bar{
   margin: 0 auto; /* optional: center the image */
 }
 
+@media (max-width: 600px) {
+  .about-img img {
+    max-width: 300px; /* or whatever size you want on mobile */
+  }
+}
+
+
 
 .about-info, .description{
   max-width: 600px;
