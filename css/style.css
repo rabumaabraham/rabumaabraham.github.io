@@ -65,6 +65,8 @@
   --hover-card-bg-color: #3a3a3a; /* Darker for Hover Effect */
 }
 
+/*
+
 *{
   margin: 0;
   padding: 0;
@@ -84,6 +86,29 @@ body{
   transition: .5s ease;
   overscroll-behavior: none;
 }
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Consider removing overscroll-behavior temporarily to test */
+}
+
+body {
+  color: var(--first-color);
+  background: var(--body-bg-color);
+  padding-top: 2rem; /* changed from margin */
+  transition: .5s ease;
+  overflow-x: hidden;
+}
+
 
 a{
   text-decoration: none;
@@ -1282,6 +1307,8 @@ footer a{
   }
 
   /*=======Footer=======*/
+  /*
+
   footer .footer-container{
     flex-direction: column;
   }
@@ -1309,6 +1336,40 @@ footer a{
     background: rgba(255, 255, 255, 0.1);
     margin: 10px 0 22px;
   }
+
+  */
+
+  /*======= Footer =======*/
+footer .footer-container {
+  flex-direction: column;
+  gap: 10px; /* Reduce spacing between sections */
+}
+
+.footer-container .about, 
+.footer-container .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px; /* Reduced from 50px to 20px */
+}
+
+.footer-container .info ul {
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container .info ul li {
+  margin: 3px 0; /* Reduced from 5px to 3px */
+}
+
+.footer-container .hr {
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 5px 0 12px; /* Reduced spacing */
+}
+
 }
 
 /*=======Media query max-width 730px=======*/
