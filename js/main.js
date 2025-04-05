@@ -348,7 +348,4 @@ document.addEventListener("DOMContentLoaded", function() {
     observer.observe(counterElement); // Observe the counter element
   });
 
-
-  
-  
   
